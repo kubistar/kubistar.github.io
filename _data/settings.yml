@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Yoo Seungmi <br> S/W developer
+  hero-title: I’m <br> S/W developer
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -48,7 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: Spring Framework를 통한 개발 및 3개의 DBMS(MySQL, Oracle, MaraiaDB) 경험이 있습니다.<br>개발’만’을 하는 것이 아닌, 서비스를 위한 전반적인 ‘환경’을 중시합니다.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -71,27 +71,28 @@ work-process:
 
 # My Team Section
 team:
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
+  - title: "슈스팅"
+    image: "assets/images/team/"
+    designation: "게임"
 
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
+  - title: "YumYumCoffee"
+    image: "assets/images/"
+    designation: ""
 
-  - title: "John Doe"
-    image: "assets/images/team/member-3.png"
-    designation: "Designer"
+  - title: "굴림(TRPG 웹 플랫폼)"
+    image: "assets/images/team/"
+    designation: ""
 
 #-------------------------------
 # Skills Section
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: Java, color: "#fdb157", value: "60%" }
+  - { name: Python, color: "#9473e6", value: "60%" }
+  - { name: mysql, color: "#bdecf6", value: "80%" }
+  - { name: oracle, color: "#bdecf6", value: "80%" }
+  - { name: git, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
 # Exprerience Section
@@ -99,22 +100,22 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: 슈스팅,
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      date: "Mar 2020 - Sep 2020",
+      organization: "졸업작품(2d 슈팅게임)",
     }
   - {
-      name: UX & UI Designer,
+      name: YumYumCoffee ,
       icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
+      date: "Jun 2022 - Aug 2022",
+      organization: "커피 주문 웹사이트",
     }
   - {
-      name: Senior UI Designer,
+      name: gulim,
       icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      date: "Jun 2023 - Aug 2023",
+      organization: "TRPG 플랫폼 (굴림)",
     }
 
 #-------------------------------
@@ -123,24 +124,24 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: SK하이닉스 청년 Hy-Five,
+      date: "2021",
+      organization: "SK하이닉스",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: AI 데이터플랫폼을 활용한 빅데이터분석 전문가 과정,
+      date: "2021",
+      organization: "휴먼교육센터",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
+      name: SW021(소프트웨어 제로투원) 취업과정 웹 개발 트랙,
+      date: "2022",
+      organization: "codepresso",
     }
   - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: 프론트엔드UI구현 및 백엔드 개발을위한 풀스택 인재양성,
+      date: "2023",
+      organization: "kosmo(한국소프트웨어인재개발원)",
     }
 
 #-------------------------------
